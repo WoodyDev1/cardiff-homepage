@@ -62,6 +62,15 @@ body {
     padding: 0 30px;
 }
 
+.top3 img:hover {
+    animation-name: grow;
+    animation-duration: 2s;
+}
+
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+
 .imgTxt {
     width: 200px;
 }
