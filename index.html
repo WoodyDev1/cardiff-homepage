@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The city of Cardiff</title>
+    <title>The City of Cardiff</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- HERO SECTION -->
-    <div>
-        <h1>Visit Cardiff</h1>
-        <h2>Enjoy culture and sports in this vibrant district close to the center of Wales.</h2>
+    <div id="hero">
+        <h1 id="title">Visit Cardiff</h1>
+        <h2 class="subtitle">Enjoy the Welsh culture and sports in the capital city of Wales.</h2>
     </div>
     
     <!-- ACTIVITIES SECTION -->
-    <div>
-        <h3>Top three activities to do at Torshov</h3>
-        <img src="images/park.jpg">
-        <img src="images/theatre.jpg">
-        <img src="images/sports.jpg">
+    <div id="activities">
+        <h3 class="subtitle">Top three activities to do in Cardiff</h3>
+        <div class="top3">
+            <div class="cardiff-castle">
+                <img src="images/Cardiff-Castle.jpg">
+                <h3>Cardiff Castle</h3>
+                <p class="imgTxt">Visit the historic castle of Cardiff Castle and re-live all those moments our ancestors had to live.</p>
+            </div>
+            <div class="CCFC">
+                <img src="images/CCFC-Stadium.JPG">
+                <h3>Cardiff City FC</h3>
+                <p class="imgTxt">Watch a game of football by watching the best team in Wales play Championship Football and see the likes of Aaron Ramsey tearing it up.</p>
+            </div>
+            <div class="principality">
+                <img src="images/Principality-Stadium.jpg">
+                <h3>Principality Stadium</h3>
+                <p class="imgTxt">See the sites in the Capital city of the world famous Principality Stadium that hosts events such as Rugby, Football, Concerts and more!</p>
+            </div>
+        </div>  
     </div>
 
     <!-- GUIDE SECTION -->
-    <div>
-        <h3>Your guide</h3>
-        <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-        <h4>Per Harald Borgen</h4>
-        <img src="images/per.jpg">
+    <div id="profile">
+        <div class="card">
+            <div class="content">
+                <h3 class="subtitle">Review of Cardiff</h3>
+                <p>"I have lived in Cardiff for almost 23 years and it is one of the best cities in the UK. There is so much to do and explore, from Cardiff Bay, Penarth and the ciy centre, to Barry Beach."</p>
+                <h4>Dylan Woodhead</h4>
+            </div>
+            <img class="pp" src="images/Dylan.JPG">
+        </div>
     </div>
 </body>
 </html>
